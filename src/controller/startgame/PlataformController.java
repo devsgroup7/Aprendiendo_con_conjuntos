@@ -6,7 +6,7 @@ package controller.startgame;
 
 /**
  *
- * @author Dan Joel
+ * @author Vania Catorceno
  */
 public class PlataformController {
     
