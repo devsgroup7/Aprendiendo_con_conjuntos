@@ -28,9 +28,9 @@ private static final long serialVersionUID = 1L;
     private Image backGround;
     
     public static final String LOGO = "Logo Game";
-    public static final String SELECT = "";
-    public static final String OPTION = "";
-    public static final String SETTING = "";
+    public static final String SELECT = "Select Game";
+    public static final String OPTION = "Option Game";
+    public static final String SETTING = "Setting Game";
     /**
      * ContainerPanel, is the panel than container to all the other panel.
      */
