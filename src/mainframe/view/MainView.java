@@ -1,27 +1,33 @@
-package view;
+package mainframe.view;
 
+import java.awt.Color;
 import java.awt.Dimension;
 import javax.swing.JFrame;
 
 /**
- * Clase base de la aplicaion el JFrame
- * que contendra los paneles necesarios de la aplicacion.
+ * La clase MainView.
+ * 
+ * Es la vista principal de la aplicaion, que contiene
+ * las vista de los juegos que se ejecutaran.
  * 
  * @author Dan Joel Canqui Aviles
  */
 public class MainView extends JFrame {
-/**
- * Serial por defecto.
- */
-private static final long serialVersionUID = 1L;
 
+    /**
+     * Serial por defecto.
+     */
+    private static final long serialVersionUID = 1L;
+
+    /**
+     * Constructor por defecto que configura las propiedades de la aplicacion.
+     */
     public MainView() {
-        super("Aprendiendo con los conjuntos");
-        final int widthFrame = 900;
-        final int heighFrame = 500;
+        setPreferredSize(new Dimension(1024, 768));
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setExtendedState(MAXIMIZED_BOTH);
-        setMinimumSize(new Dimension(widthFrame, heighFrame));
+        setForeground(Color.BLACK);
+        setUndecorated(true);
+        setResizable(false);
     }
-
 }

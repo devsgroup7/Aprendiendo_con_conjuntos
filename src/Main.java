@@ -1,5 +1,5 @@
 
-import controller.MainController;
+import mainframe.controller.MainController;
 
 /*
  * To change this template, choose Tools | Templates
@@ -13,6 +13,7 @@ import controller.MainController;
 public class Main {
 
     public static void main(String[] args) {
-        new MainController();
+        MainController main = new MainController();
+        main.startApplication();
     }
 }
