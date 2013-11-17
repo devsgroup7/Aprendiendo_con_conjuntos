@@ -29,7 +29,7 @@ public class SelectGameView extends BaseMenuView {
     public SelectGameView() {
         super.identifier = "JUEGOS";
         super.backgroundImage =
-                new ImageIcon("src/game/plataform/view/image/8.jpg").getImage();
+                new ImageIcon("src/game/plataform/view/image/select.jpg").getImage();
         setLayout(new BoxLayout(this, BoxLayout.PAGE_AXIS));
     }
 
